@@ -1,0 +1,185 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Luật giao thông",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Tốc độ tối đa của xe máy trong khu đông dân cư là bao nhiêu?",
+          "options": ["A. 40km/h", "B. 50km/h", "C. 60km/h", "D. 80km/h"],
+          "answer": 0,
+          "isCritical": false
+        },
+        {
+          "id": 2,
+          "text": "Người điều khiển xe máy không được phép làm gì khi tham gia giao thông?",
+          "options": ["A. Dùng ô", "B. Đội mũ bảo hiểm", "C. Tuân thủ đèn tín hiệu", "D. Giữ khoảng cách an toàn"],
+          "answer": 0,
+          "isCritical": true
+        },
+        {
+          "id": 3,
+          "text": "Khi gặp biển 'Cấm dừng xe', bạn phải làm gì?",
+          "options": ["A. Dừng xe ngay", "B. Tiếp tục chạy", "C. Giảm tốc độ", "D. Đỗ xe tạm thời"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 4,
+          "text": "Xe máy được phép chở tối đa bao nhiêu người?",
+          "options": ["A. 1 người", "B. 2 người", "C. 3 người", "D. 4 người"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 5,
+          "text": "Người điều khiển xe máy phải mang theo giấy tờ gì?",
+          "options": ["A. Giấy phép lái xe", "B. Hộ chiếu", "C. CMND/CCCD", "D. Không cần giấy tờ"],
+          "answer": 0,
+          "isCritical": true
+        },
+        {
+          "id": 6,
+          "text": "Độ tuổi tối thiểu để lái xe máy dưới 50cc là bao nhiêu?",
+          "options": ["A. 16", "B. 18", "C. 20", "D. 21"],
+          "answer": 0,
+          "isCritical": false
+        },
+        {
+          "id": 7,
+          "text": "Khi đèn giao thông màu đỏ, bạn phải làm gì?",
+          "options": ["A. Tiếp tục chạy", "B. Dừng xe", "C. Giảm tốc độ", "D. Tăng tốc"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 8,
+          "text": "Xe máy có được phép đi vào đường cao tốc không?",
+          "options": ["A. Có", "B. Không", "C. Tùy trường hợp", "D. Chỉ ban đêm"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 9,
+          "text": "Khi vượt xe khác, bạn phải làm gì?",
+          "options": ["A. Báo hiệu bằng còi", "B. Tăng tốc ngay", "C. Đi sát xe trước", "D. Không vượt"],
+          "answer": 0,
+          "isCritical": false
+        },
+        {
+          "id": 10,
+          "text": "Người lái xe máy phải đội mũ bảo hiểm đạt chuẩn nào?",
+          "options": ["A. TCVN", "B. ISO", "C. CE", "D. Không cần chuẩn"],
+          "answer": 0,
+          "isCritical": false
+        },
+        {
+          "id": 11,
+          "text": "Khi dừng xe, bạn phải bật đèn gì vào ban đêm?",
+          "options": ["A. Đèn pha", "B. Đèn hậu", "C. Đèn xi nhan", "D. Không cần đèn"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 12,
+          "text": "Xe máy được phép đi vào làn đường dành cho xe ô tô không?",
+          "options": ["A. Có", "B. Không", "C. Tùy trường hợp", "D. Chỉ ban ngày"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 13,
+          "text": "Khi gặp biển 'Cấm đi ngược chiều', bạn phải làm gì?",
+          "options": ["A. Đi ngược chiều", "B. Đi đúng chiều", "C. Dừng xe", "D. Giảm tốc"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 14,
+          "text": "Người lái xe máy phải làm gì khi gặp đèn vàng?",
+          "options": ["A. Tăng tốc", "B. Giảm tốc độ", "C. Dừng xe nếu an toàn", "D. Tiếp tục chạy"],
+          "answer": 2,
+          "isCritical": false
+        },
+        {
+          "id": 15,
+          "text": "Xe máy được phép chở trẻ em dưới bao nhiêu tuổi mà không cần ghế phụ?",
+          "options": ["A. 4 tuổi", "B. 7 tuổi", "C. 10 tuổi", "D. 12 tuổi"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 16,
+          "text": "Khi tham gia giao thông, xe máy phải đi bên nào của đường?",
+          "options": ["A. Bên trái", "B. Bên phải", "C. Giữa đường", "D. Tùy ý"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 17,
+          "text": "Người lái xe máy có được phép sử dụng điện thoại khi lái xe không?",
+          "options": ["A. Có", "B. Không", "C. Chỉ khi dừng xe", "D. Chỉ ban ngày"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 18,
+          "text": "Tốc độ tối đa của xe máy ngoài khu đông dân cư là bao nhiêu?",
+          "options": ["A. 40km/h", "B. 50km/h", "C. 60km/h", "D. 80km/h"],
+          "answer": 2,
+          "isCritical": false
+        },
+        {
+          "id": 19,
+          "text": "Khi gặp biển 'Đường ưu tiên', bạn phải làm gì?",
+          "options": ["A. Nhường đường", "B. Tiếp tục chạy", "C. Tăng tốc", "D. Bấm còi"],
+          "answer": 0,
+          "isCritical": false
+        },
+        {
+          "id": 20,
+          "text": "Người lái xe máy có được phép chở hàng vượt quá chiều dài xe không?",
+          "options": ["A. Có", "B. Không", "C. Tùy trường hợp", "D. Chỉ ban đêm"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 21,
+          "text": "Khi gặp tín hiệu cảnh sát giao thông, bạn phải làm gì?",
+          "options": ["A. Tiếp tục chạy", "B. Tuân thủ hiệu lệnh", "C. Tăng tốc", "D. Bấm còi"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 22,
+          "text": "Xe máy phải có gương chiếu hậu ở bên nào?",
+          "options": ["A. Bên trái", "B. Bên phải", "C. Cả hai bên", "D. Không cần gương"],
+          "answer": 2,
+          "isCritical": false
+        },
+        {
+          "id": 23,
+          "text": "Người lái xe máy phải làm gì khi qua đường sắt?",
+          "options": ["A. Tăng tốc", "B. Giảm tốc độ", "C. Quan sát kỹ", "D. Bấm còi"],
+          "answer": 2,
+          "isCritical": false
+        },
+        {
+          "id": 24,
+          "text": "Khi điều khiển xe máy, bạn phải giữ khoảng cách tối thiểu bao nhiêu với xe phía trước?",
+          "options": ["A. 5m", "B. 10m", "C. 15m", "D. Tùy ý"],
+          "answer": 1,
+          "isCritical": false
+        },
+        {
+          "id": 25,
+          "text": "Người lái xe máy có được phép chở hàng hóa cồng kềnh không?",
+          "options": ["A. Có, nếu buộc chắc", "B. Không", "C. Tùy trường hợp", "D. Chỉ ban ngày"],
+          "answer": 0,
+          "isCritical": false
+        }
+      ]
+    }
+  ]
+}

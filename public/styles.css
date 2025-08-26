@@ -1,0 +1,294 @@
+body {
+    background: #121212;
+    color: #00ffea;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 5px #00ffea;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0 0 10px #00ffea, 0 0 20px #ff00ff;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #ff00ff;
+    border: none;
+    color: #121212;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff00ff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 2px;
+    font-size: 12px;
+    white-space: nowrap; /* Ngăn button bị xuống dòng */
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+input, select {
+    background: #1e1e1e;
+    border: 1px solid #00ffea;
+    color: #00ffea;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00ffea;
+    font-size: 14px;
+}
+
+.group-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.group-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffea;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.group-card:hover {
+    transform: scale(1.03);
+}
+
+#timer {
+    font-size: 2em;
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.question {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ffea;
+    margin-bottom: 20px;
+}
+
+.question.critical::before {
+    content: "Câu điểm liệt: ";
+    color: #ff4444;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #2a2a2a;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #00ffea;
+    transition: background 0.2s;
+}
+
+label:hover {
+    background: #3a3a3a;
+    box-shadow: 0 0 10px #00ffea;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00ffea;
+    border-radius: 50%;
+    background-color: #1e1e1e;
+    vertical-align: middle;
+    margin-right: 10px;
+    box-shadow: 0 0 5px #00ffea;
+    transition: background 0.2s;
+}
+
+input[type="radio"]:checked {
+    background-color: #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+    border-color: #ff00ff;
+}
+
+input[type="radio"]:hover {
+    box-shadow: 0 0 10px #00ffea;
+}
+
+.correct {
+    background: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+    color: #121212;
+}
+
+.incorrect {
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+    color: #121212;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.history-table {
+    margin-top: 20px;
+    overflow-x: auto; /* Cho phép cuộn ngang trên màn hình nhỏ */
+}
+
+table {
+    width: 100%;
+    table-layout: fixed; /* Cố định bố cục bảng */
+    border-collapse: collapse;
+    background: #1e1e1e;
+    box-shadow: 0 0 10px #00ffea;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #00ffea;
+    word-break: break-word; /* Xử lý nội dung dài, xuống dòng */
+    white-space: normal; /* Cho phép xuống dòng */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */
+    max-height: 100px; /* Giới hạn chiều cao để xuống dòng */
+    overflow-wrap: break-word; /* Đảm bảo nội dung dài xuống dòng */
+}
+
+th {
+    background: #2a2a2a;
+    text-shadow: 0 0 5px #00ffea;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+th:nth-child(1), td:nth-child(1) { /* Tên */
+    min-width: 120px;
+    max-width: 120px;
+}
+th:nth-child(2), td:nth-child(2) { /* Nhóm */
+    min-width: 150px;
+    max-width: 150px;
+}
+th:nth-child(3), td:nth-child(3) { /* Điểm */
+    min-width: 80px;
+    max-width: 80px;
+}
+th:nth-child(4), td:nth-child(4) { /* % */
+    min-width: 80px;
+    max-width: 80px;
+}
+th:nth-child(5), td:nth-child(5) { /* Đậu/Rớt */
+    min-width: 100px;
+    max-width: 100px;
+}
+th:nth-child(6), td:nth-child(6) { /* Ngày */
+    min-width: 180px;
+    max-width: 180px;
+}
+th:nth-child(7), td:nth-child(7) { /* Chi Tiết */
+    min-width: 80px;
+    max-width: 80px;
+}
+th:nth-child(8), td:nth-child(8) { /* Hành Động */
+    min-width: 80px;
+    max-width: 80px;
+}
+
+td button {
+    margin: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+    width: 100%; /* Button chiếm toàn bộ chiều rộng ô */
+    box-sizing: border-box;
+}
+
+.details-panel {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffea;
+    margin-top: 20px;
+}
+
+#adminBtn {
+    background: #ff4444;
+    box-shadow: 0 0 10px #ff4444;
+}
+
+#adminBtn:hover {
+    box-shadow: 0 0 20px #ff4444;
+}
+
+#closeDetails {
+    display: block;
+    margin: 10px auto;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    button, input, select {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .admin-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .filters {
+        flex-direction: column;
+    }
+    table {
+        font-size: 12px;
+    }
+    th, td {
+        padding: 6px;
+        max-height: 80px;
+    }
+    th:nth-child(1), td:nth-child(1) { min-width: 80px; max-width: 80px; }
+    th:nth-child(2), td:nth-child(2) { min-width: 100px; max-width: 100px; }
+    th:nth-child(6), td:nth-child(6) { min-width: 120px; max-width: 120px; }
+}

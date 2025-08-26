@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Quản Lý Lịch Sử (Bằng A1)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quản Lý Lịch Sử (Bằng A1)</h1>
+        <div id="adminControls" class="admin-controls">
+            <div id="loginForm" class="login-form" style="display:none;">
+                <input type="text" id="username" placeholder="Tên đăng nhập">
+                <input type="password" id="password" placeholder="Mật khẩu">
+                <button onclick="login()">Đăng Nhập</button>
+            </div>
+            <button id="logoutBtn" style="display:none;" onclick="logout()">Đăng Xuất</button>
+        </div>
+        <div class="filters">
+            <select id="filterUser" onchange="filterTable(this.value, document.getElementById('filterGroup').value)">
+                <option value="">Tất Cả Người Dùng</option>
+            </select>
+            <select id="filterGroup" onchange="filterTable(document.getElementById('filterUser').value, this.value)">
+                <option value="">Tất Cả Nhóm</option>
+                <option value="1">Luật giao thông</option>
+                <option value="2">Biển báo</option>
+                <option value="3">Sa hình</option>
+                <option value="4">Văn hóa & đạo đức lái xe</option>
+                <option value="5">Kỹ thuật lái xe</option>
+                <option value="6">Cấu tạo & Sửa chữa</option>
+                <option value="7">Nghiệp vụ vận tải</option>
+                <option value="8">Kiến thức khác</option>
+            </select>
+        </div>
+        <div id="historyTable" class="history-table"></div>
+        <div id="details" class="details-panel" style="display:none;"></div>
+        <button id="closeDetails" onclick="document.getElementById('details').style.display='none'" style="display:none;">Đóng</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

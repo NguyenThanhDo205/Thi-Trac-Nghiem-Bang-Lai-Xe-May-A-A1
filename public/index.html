@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc Nghiệm Bằng Lái Xe Máy A1 - Dark Neon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thông tin người thi (Bằng A1)</h1>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Họ và Tên" required>
+            <input type="number" id="birthYear" placeholder="Năm Sinh" min="1900" max="2025" required>
+            <select id="gender" required>
+                <option value="" disabled selected>Giới tính</option>
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nữ</option>
+                <option value="Khác">Khác</option>
+            </select>
+            <input type="text" id="hometown" placeholder="Quê Quán" required>
+            <button type="submit">Bắt Đầu</button>
+        </form>
+        <button id="adminBtn" onclick="window.location.href='admin.html'">Vào Admin</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

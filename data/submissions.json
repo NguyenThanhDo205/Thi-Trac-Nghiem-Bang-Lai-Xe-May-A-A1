@@ -1,0 +1,462 @@
+[
+  {
+    "id": "a_1756244738870",
+    "datetime": "2025-08-26T21:45:38.870Z",
+    "name": "Nguyễn Duy Mạnh E",
+    "birthyear": "2005",
+    "gender": "Nam",
+    "hometown": "Quảng Ngãi",
+    "group": "1",
+    "fromQ": 1,
+    "toQ": 25,
+    "score": 5,
+    "percent": 20,
+    "answers": [
+      {
+        "questionId": 1,
+        "selected": 2
+      },
+      {
+        "questionId": 2,
+        "selected": 1
+      },
+      {
+        "questionId": 3,
+        "selected": 3
+      },
+      {
+        "questionId": 4,
+        "selected": 3
+      },
+      {
+        "questionId": 5,
+        "selected": 3
+      },
+      {
+        "questionId": 6,
+        "selected": 3
+      },
+      {
+        "questionId": 7,
+        "selected": 3
+      },
+      {
+        "questionId": 8,
+        "selected": 2
+      },
+      {
+        "questionId": 9,
+        "selected": 2
+      },
+      {
+        "questionId": 10,
+        "selected": 1
+      },
+      {
+        "questionId": 11,
+        "selected": 0
+      },
+      {
+        "questionId": 12,
+        "selected": 3
+      },
+      {
+        "questionId": 13,
+        "selected": 2
+      },
+      {
+        "questionId": 14,
+        "selected": 2
+      },
+      {
+        "questionId": 15,
+        "selected": 3
+      },
+      {
+        "questionId": 16,
+        "selected": 1
+      },
+      {
+        "questionId": 17,
+        "selected": 2
+      },
+      {
+        "questionId": 18,
+        "selected": 2
+      },
+      {
+        "questionId": 19,
+        "selected": 1
+      },
+      {
+        "questionId": 20,
+        "selected": 3
+      },
+      {
+        "questionId": 21,
+        "selected": 2
+      },
+      {
+        "questionId": 22,
+        "selected": 1
+      },
+      {
+        "questionId": 23,
+        "selected": 2
+      },
+      {
+        "questionId": 24,
+        "selected": 1
+      }
+    ],
+    "pass": false
+  },
+  {
+    "id": "a_1756242880036",
+    "datetime": "2025-08-26T21:14:40.036Z",
+    "name": "Nguyễn Duy Mạnh E",
+    "birthyear": "2005",
+    "gender": "Nữ",
+    "hometown": "Quảng Ngãi",
+    "group": "1",
+    "fromQ": 1,
+    "toQ": 25,
+    "score": 1,
+    "percent": 4,
+    "answers": [
+      {
+        "questionId": 1,
+        "selected": 0
+      },
+      {
+        "questionId": 2,
+        "selected": 3
+      },
+      {
+        "questionId": 3,
+        "selected": 3
+      },
+      {
+        "questionId": 4,
+        "selected": 3
+      },
+      {
+        "questionId": 5,
+        "selected": 3
+      },
+      {
+        "questionId": 6,
+        "selected": 3
+      },
+      {
+        "questionId": 7,
+        "selected": 3
+      },
+      {
+        "questionId": 8,
+        "selected": 3
+      },
+      {
+        "questionId": 9,
+        "selected": 3
+      },
+      {
+        "questionId": 10,
+        "selected": 3
+      },
+      {
+        "questionId": 11,
+        "selected": 3
+      },
+      {
+        "questionId": 12,
+        "selected": 3
+      },
+      {
+        "questionId": 13,
+        "selected": 3
+      },
+      {
+        "questionId": 14,
+        "selected": 0
+      },
+      {
+        "questionId": 15,
+        "selected": 3
+      },
+      {
+        "questionId": 16,
+        "selected": 3
+      },
+      {
+        "questionId": 17,
+        "selected": 3
+      },
+      {
+        "questionId": 18,
+        "selected": 3
+      },
+      {
+        "questionId": 19,
+        "selected": 3
+      },
+      {
+        "questionId": 20,
+        "selected": 3
+      },
+      {
+        "questionId": 21,
+        "selected": 3
+      },
+      {
+        "questionId": 22,
+        "selected": 3
+      },
+      {
+        "questionId": 23,
+        "selected": 3
+      },
+      {
+        "questionId": 24,
+        "selected": 3
+      }
+    ],
+    "pass": false
+  },
+  {
+    "id": "a_1756242252405",
+    "datetime": "2025-08-26T21:04:12.405Z",
+    "name": "Nguyễn Duy Mạnh",
+    "birthyear": "2005",
+    "gender": "Nữ",
+    "hometown": "Quảng Ngãi",
+    "group": "1",
+    "fromQ": 1,
+    "toQ": 25,
+    "score": 3,
+    "percent": 12,
+    "answers": [
+      {
+        "questionId": 1,
+        "selected": 0
+      },
+      {
+        "questionId": 2,
+        "selected": 3
+      },
+      {
+        "questionId": 3,
+        "selected": 2
+      },
+      {
+        "questionId": 4,
+        "selected": 3
+      },
+      {
+        "questionId": 5,
+        "selected": 3
+      },
+      {
+        "questionId": 6,
+        "selected": 3
+      },
+      {
+        "questionId": 7,
+        "selected": 3
+      },
+      {
+        "questionId": 8,
+        "selected": 3
+      },
+      {
+        "questionId": 9,
+        "selected": 3
+      },
+      {
+        "questionId": 10,
+        "selected": 3
+      },
+      {
+        "questionId": 11,
+        "selected": 3
+      },
+      {
+        "questionId": 12,
+        "selected": 3
+      },
+      {
+        "questionId": 13,
+        "selected": 3
+      },
+      {
+        "questionId": 14,
+        "selected": 3
+      },
+      {
+        "questionId": 15,
+        "selected": 3
+      },
+      {
+        "questionId": 16,
+        "selected": 3
+      },
+      {
+        "questionId": 17,
+        "selected": 3
+      },
+      {
+        "questionId": 18,
+        "selected": 2
+      },
+      {
+        "questionId": 19,
+        "selected": 2
+      },
+      {
+        "questionId": 20,
+        "selected": 1
+      },
+      {
+        "questionId": 21,
+        "selected": 3
+      },
+      {
+        "questionId": 22,
+        "selected": 3
+      },
+      {
+        "questionId": 23,
+        "selected": 3
+      },
+      {
+        "questionId": 24,
+        "selected": 3
+      }
+    ],
+    "pass": false
+  },
+  {
+    "id": "a_1756241765421",
+    "datetime": "2025-08-26T20:56:05.421Z",
+    "name": "Nguyễn Thành Đô",
+    "birthyear": "2005",
+    "gender": "Nữ",
+    "hometown": "Quảng Ngãi",
+    "group": "1",
+    "fromQ": 1,
+    "toQ": 5,
+    "score": 3,
+    "percent": 60,
+    "answers": [
+      {
+        "questionId": 1,
+        "selected": 0
+      },
+      {
+        "questionId": 2,
+        "selected": 0
+      },
+      {
+        "questionId": 3,
+        "selected": 2
+      },
+      {
+        "questionId": 4,
+        "selected": 1
+      }
+    ],
+    "pass": false
+  },
+  {
+    "id": "a_1756241391866",
+    "datetime": "2025-08-26T20:49:51.866Z",
+    "name": "Nguyễn Thành Đô",
+    "birthyear": "2005",
+    "gender": "Nam",
+    "hometown": "Quảng Ngãi",
+    "group": "5",
+    "fromQ": 25,
+    "toQ": 23,
+    "score": 1,
+    "percent": 20,
+    "answers": [
+      {
+        "questionId": 25,
+        "selected": 3
+      },
+      {
+        "questionId": 21,
+        "selected": 1
+      },
+      {
+        "questionId": 22,
+        "selected": 3
+      },
+      {
+        "questionId": 24,
+        "selected": 2
+      }
+    ],
+    "pass": false
+  },
+  {
+    "id": "a_1756241370375",
+    "datetime": "2025-08-26T20:49:30.375Z",
+    "name": "Nguyễn Thành Đô",
+    "birthyear": "2005",
+    "gender": "Nam",
+    "hometown": "Quảng Ngãi",
+    "group": "5",
+    "fromQ": 25,
+    "toQ": 23,
+    "score": 1,
+    "percent": 20,
+    "answers": [
+      {
+        "questionId": 25,
+        "selected": 3
+      },
+      {
+        "questionId": 21,
+        "selected": 1
+      },
+      {
+        "questionId": 22,
+        "selected": 3
+      },
+      {
+        "questionId": 24,
+        "selected": 2
+      }
+    ],
+    "pass": false
+  },
+  {
+    "id": "a_1756240808402",
+    "datetime": "2025-08-26T20:40:08.402Z",
+    "name": "Nguyễn Thành Đô",
+    "birthyear": "2005",
+    "gender": "Nam",
+    "hometown": "Quảng Ngãi",
+    "group": "1",
+    "fromQ": 1,
+    "toQ": 5,
+    "score": 2,
+    "percent": 50,
+    "answers": [
+      {
+        "questionId": 1,
+        "selected": 1
+      },
+      {
+        "questionId": 4,
+        "selected": 1
+      },
+      {
+        "questionId": 3,
+        "selected": 1
+      }
+    ],
+    "pass": false
+  }
+]
