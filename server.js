@@ -48,7 +48,6 @@ app.post('/api/submit', (req, res) => {
     };
     subs.unshift(attempt);
     fs.writeFileSync(DATA_FILE, JSON.stringify(subs, null, 2));
-    console.log('New submission added:', attempt); // Debug: Log khi thêm bài làm
     res.json({ ok: true, attempt });
 });
 
@@ -60,7 +59,6 @@ app.delete('/api/submissions/:id', adminOnly, (req, res) => {
     const subs = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
     const updatedSubs = subs.filter(sub => sub.id !== req.params.id);
     fs.writeFileSync(DATA_FILE, JSON.stringify(updatedSubs, null, 2));
-    console.log(`Deleted submission with id: ${req.params.id}`); // Debug: Log khi xóa
     res.json({ ok: true });
 });
 
@@ -72,7 +70,6 @@ app.delete('/api/submissions/user/:name', adminOnly, (req, res) => {
     const subs = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
     const updatedSubs = subs.filter(sub => sub.name !== req.params.name);
     fs.writeFileSync(DATA_FILE, JSON.stringify(updatedSubs, null, 2));
-    console.log(`Deleted all submissions for user: ${req.params.name}`); // Debug: Log khi xóa
     res.json({ ok: true });
 });
 
@@ -96,7 +93,6 @@ function adminOnly(req, res, next) {
 }
 app.get('/api/submissions', adminOnly, (req, res) => {
     const subs = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
-    console.log('Submissions sent to client:', subs); // Debug: Log dữ liệu gửi đi
     res.json(subs);
 });
 

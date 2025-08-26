@@ -172,7 +172,6 @@ async function loadAdmin() {
         document.getElementById('logoutBtn').style.display = 'block';
         document.getElementById('historyTable').style.display = 'block';
         const submissions = await response.json();
-        console.log('Submissions data:', submissions); // Debug: Kiểm tra dữ liệu từ server
         const filterUser = document.getElementById('filterUser');
         const users = [...new Set(submissions.map(s => s.name))];
         filterUser.innerHTML = '<option value="">Tất Cả Người Dùng</option>';
@@ -183,6 +182,7 @@ async function loadAdmin() {
             filterUser.appendChild(option);
         });
 
+        document.getElementById('filterUser').onchange = () => filterTable(document.getElementById('filterUser').value, document.getElementById('filterGroup').value);
         document.getElementById('filterGroup').onchange = () => filterTable(document.getElementById('filterUser').value, document.getElementById('filterGroup').value);
 
         async function filterTable(user = '', group = '') {
@@ -191,7 +191,6 @@ async function loadAdmin() {
             let filteredSubs = submissions;
             if (user) filteredSubs = filteredSubs.filter(sub => sub.name === user);
             if (group) filteredSubs = filteredSubs.filter(sub => sub.group == group);
-            console.log('Filtered data:', filteredSubs); // Debug: Kiểm tra dữ liệu đã lọc
             filteredSubs.forEach(sub => {
                 const groupName = document.querySelector(`#filterGroup option[value="${sub.group}"]`)?.text || 'Unknown';
                 table.innerHTML += `<tr>
